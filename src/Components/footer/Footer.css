@@ -1,0 +1,23 @@
+.footer p{
+    margin-bottom: 15vh;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0D6EFD;
+    
+    text-align: center;
+    justify-content: space-around;
+    
+  }
+
+  .footer{
+    color:white !important;
+    font-weight: bold;
+    size: 12px;
+  }
+
+  
+ 

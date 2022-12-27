@@ -1,0 +1,40 @@
+.user-card{
+    margin-top: 14vh;
+}
+
+.ho:hover{
+
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    -webkit-transform: scale (1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    z-index: 2;
+
+}
+.paper3{
+    padding: 1em;
+    background-color: white;
+    box-shadow: 5px 5px 20px lightsalmon!important;
+    text-align: center;
+}
+.user-Button{
+
+    border: none;
+    outline: none;
+    height: 40px!important;
+    width: 40%!important;
+    background-color: black!important;
+    color: white!important;
+    border-radius: 4px;
+    font-weight: bold!important;  
+    
+}
+
+.user-Button:hover{
+    background: white!important;
+    border: 1px solid;
+    color: black!important;
+}

@@ -1,0 +1,29 @@
+{
+  "newsdata": [
+    {
+      "description": "NASA has released new views of its long-awaited Artemis I moon rocket launch. The spacecraft with three test dummies aboard launched on top of NASA's new moon rocket early Wednesday. The Florida launch brings the U.S. a big step closer to putting astronauts b…",
+      "url": "https://economictimes.indiatimes.com/news/science/moon-mission-nasa-releases-new-views-of-artemis-i-launch/videoshow/95593179.cms",
+      "id": 1
+    },
+    {
+      "description": "Jasmine Shah, the vice chairperson of Delhi government's think thank Dialogue and Development Commission of Delhi, has been restricted from using his office.",
+      "url": "https://www.ndtv.com/india-news/delhi-lieutenant-governor-vk-saxena-locks-up-delhi-government-think-tank-ddcd-head-jasmine-shahs-office-withdraws-his-privileges-and-facilities-in-row-3531390",
+      "id": 2
+    },
+    {
+      "description": "LIVE Updates | Drishyam 2 Release, Movie Reviews: Twitter hails Ajay Devgn, Tabu!",
+      "url": "https://zeenews.india.com/movies/live-updates/drishyam-2-movie-reviews-live-social-buzz-ajay-devgn-starrer-opens-in-theatres-box-office-collection-2536698",
+      "id": 3
+    },
+    {
+      "description": "Fatty liver is a condition in which there is deposition of extra fat in the liver. A healthy diet can help manage this condition. Here are some of these that you can follow.",
+      "url": "https://www.ndtv.com/health/liver-health-follow-these-diet-rules-if-you-have-a-fatty-liver-alcohol-consumption-3530012",
+      "id": 4
+    },
+    {
+      "description": "The Poland national football team was escorted to the border of the country, on their way to Qatar for FIFA World Cup 2022. The video of the same has gone viral on social media.",
+      "url": "https://sports.ndtv.com/fifa-world-cup-2022/watch-poland-national-team-escorted-by-f16-jets-on-their-way-to-qatar-for-fifa-world-cup-3532120",
+      "id": 5
+    }
+  ]
+}
