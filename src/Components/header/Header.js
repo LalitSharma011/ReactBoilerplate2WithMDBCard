@@ -4,11 +4,24 @@ import { useNavigate } from "react-router-dom";
 import './Header.css'
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
 
 
 
 
 export default function Header() {
+
+
+  const [open, setOpen] = React.useState(false);   //added for backdrop spinner
+
+  const handleOpen = () => {
+    setOpen(true);
+    setTimeout(() => {
+      setOpen(false);
+    }, 1000);
+  };
+
 
 
   const [search, setsearch] = useState("");
@@ -68,15 +81,33 @@ export default function Header() {
 
 
                     <li className="nav-item">
-                      <Link className="nav-link active" to="/business">Business</Link>
+                      <Link className="nav-link active" to="/business" onClick={handleOpen}>business</Link><Backdrop
+        sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        open={open}
+        
+      >
+        <CircularProgress color="inherit" />
+      </Backdrop>
                     </li>
 
                     <li className="nav-item">
-                      <Link className="nav-link active" to="/sports">Sports</Link>
+                      <Link  className="nav-link active" to="/sports" onClick={handleOpen}>Sports</Link><Backdrop
+        sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        open={open}
+        
+      >
+        <CircularProgress color="inherit" />
+      </Backdrop> 
                     </li>
 
                     <li className="nav-item">
-                      <Link className="nav-link active" to="/entertainment">Entertainment</Link>
+                    <Link className="nav-link active" to="/entertainment" onClick={handleOpen}>Entertainment</Link><Backdrop
+        sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        open={open}
+        
+      >
+        <CircularProgress color="inherit" />
+      </Backdrop>
                     </li>
                     <li className="nav-item">
                       <form className="d-flex">
